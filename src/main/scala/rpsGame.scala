@@ -1,7 +1,7 @@
 object rpsGame {
 def main(args: Array[String]):Unit = {
   var quit: Boolean = true
-  var player: String = ""
+  var player: String = null
   while(quit){
     println("Player please enter R, P or S!")
     player = scala.io.StdIn.readLine().toLowerCase()
