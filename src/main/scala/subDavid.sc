@@ -13,6 +13,3 @@ def seqDaveed(one: String, two: String): Unit = {
   println((listOne&listTwo).maxBy(_.length))
 }
 seqDaveed("abcd", "abcowiehiowerho")
-
-def madMan(one: String, two: String) : Unit = println((one.inits.flatMap(_.tails).toSet&two.inits.flatMap(_.tails).toSet).maxBy(_.length))
-madMan("heb", "horld")
