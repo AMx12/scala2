@@ -88,6 +88,15 @@ tones("Fizz","Buzz")
 //}
 //welcomeNoLoops1("B", 5, 5)
 
+def bool(num1: Int, num2: Int): Boolean = {
+
+  if (num1 + num2 == 4) false
+  true
+}
+bool(2, 2)
+
+
+
 def metal(f: String, b: String, count: Int, i: Int) : Unit = {
   if (i <= count) {
     if (i % 3 == 0 && i % 5 == 0) println(f + b)
